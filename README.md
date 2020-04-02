@@ -1,36 +1,13 @@
 # ![KVIrc-Midnight](https://github.com/kvirc/KVIrc/wiki/images/KVIrc-midnight.png) KVIrc
 
-[![Travis Build Status](https://travis-ci.org/kvirc/KVIrc.svg?branch=master)](https://travis-ci.org/kvirc/KVIrc)
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/j6tjel0eaeyixcbn/branch/master?svg=true)](https://ci.appveyor.com/project/DarthGandalf/kvirc/branch/master)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/6841/badge.svg)](https://scan.coverity.com/projects/kvirc-coverity)
+kubuntu 19.10
 
-<!--![KVIrc logo](../master/data/icons/128x128/kvirc.png "KVIrc - The visual IRC client for the masses!") -->
-
-Welcome to the development and bug tracker for the KVIrc project.
-
-KVIrc is a free and portable IRC client leveraging the Qt GUI toolkit.
-KVIrc is written by Szymon Stefanek and the KVIrc development team, with [contributions](https://github.com/kvirc/KVIrc/graphs/contributors) and support of many IRC addicted developers around the world.
-
-## Getting Involved
-
-* [Contributing](https://github.com/kvirc/KVIrc/wiki/Getting-involved-and-contributing)
-
-## Help & Support
-
-* [KVIrc Wiki](https://github.com/kvirc/KVIrc/wiki/home)
-* [KVIrc Manual](http://www.kvirc.net/doc)
-* [KVIrc API](http://www.kvirc.net/api)
-* [How to submit a bug report](https://github.com/kvirc/KVIrc/wiki/Submitting-a-bug-report)
-* [Open a bug report or make a suggestion](https://github.com/kvirc/KVIrc/issues)
-* Talk to us - [Join #KVIrc](https://webchat.freenode.net?nick=kvirc-user&channels=%23kvirc&prompt=1&uio=OT10cnVlde) on freenode.net
-
----
-
-## Downloads
-
-Try one of our fresh off-the-press [nightly builds](https://github.com/kvirc/KVIrc/wiki/Downloading-KVIrcs-nightly-source-or-binaries) for Windows, Ubuntu and Debian.
-
-We're also looking for volunteer packagers and maintainers to other Linux distributions, that can help us extend KVIrc's availability in other operating systems.
+sudo apt-get install doxygen libenchant-dev qtbase5-dev \
+    cmake-curses-gui extra-cmake-modules gettext \
+    qttools5-dev libkf5i18n-dev qtmultimedia5-dev \ 
+    libqt5webkit5-dev libqt5svg5-dev libqt5x11extras5-dev \ 
+    libphonon4qt5-dev libphonon4qt5experimental-dev \ 
+    libkf5xmlgui-dev libkf5notifications-dev libperl-dev
 
 ## Compile Your Own
 
