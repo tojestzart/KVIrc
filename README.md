@@ -1,6 +1,6 @@
 # ![KVIrc-Midnight](https://github.com/kvirc/KVIrc/wiki/images/KVIrc-midnight.png) KVIrc
 
-kubuntu 19.10
+These are dependencies for kubuntu 19.10 or earlier
 ````
 #!/bin/bash
 sudo apt-get install doxygen libenchant-dev qtbase5-dev cmake-curses-gui extra-cmake-modules gettext \
