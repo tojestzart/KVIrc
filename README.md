@@ -3,11 +3,11 @@
 kubuntu 19.10
 
 sudo apt-get install doxygen libenchant-dev qtbase5-dev \
-    cmake-curses-gui extra-cmake-modules gettext \
-    qttools5-dev libkf5i18n-dev qtmultimedia5-dev \ 
-    libqt5webkit5-dev libqt5svg5-dev libqt5x11extras5-dev \ 
-    libphonon4qt5-dev libphonon4qt5experimental-dev \ 
-    libkf5xmlgui-dev libkf5notifications-dev libperl-dev
+             cmake-curses-gui extra-cmake-modules gettext \
+             qttools5-dev libkf5i18n-dev qtmultimedia5-dev \ 
+             libqt5webkit5-dev libqt5svg5-dev libqt5x11extras5-dev \ 
+             libphonon4qt5-dev libphonon4qt5experimental-dev \ 
+             libkf5xmlgui-dev libkf5notifications-dev libperl-dev libtheora-dev libvorbis-dev
 
 ## Compile Your Own
 
