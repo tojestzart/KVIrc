@@ -8,7 +8,6 @@ sudo apt-get install doxygen libenchant-dev qtbase5-dev cmake-curses-gui extra-c
              libphonon4qt5-dev libphonon4qt5experimental-dev libkf5xmlgui-dev libkf5notifications-dev \
              libperl-dev libtheora-dev libvorbis-dev libssl-dev python3-dev libqt5x11extras5-dev \
              build-essential
-             
  ````
 
 ## Compile Your Own
