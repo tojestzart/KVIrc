@@ -9,7 +9,7 @@ sudo apt-get install doxygen libenchant-dev qtbase5-dev cmake-curses-gui extra-c
              libperl-dev libtheora-dev libvorbis-dev libssl-dev python3-dev libqt5x11extras5-dev \
              build-essential
  ````
-Extra for advanced mode from ccmake:
+Extra for advanced mode in ccmake:
 ````
 #!/bin/bash
 sudo apt-get install libaudiofile-dev graphviz
