@@ -46,7 +46,7 @@ sudo ldconfig
 ````
 
 
-##  Debbuging
+##  Debugging
 
 Command to properly set KVIrc inside GDB is:
 
