@@ -15,6 +15,28 @@ Extra for advanced mode in ccmake:
 sudo apt-get install libaudiofile-dev graphviz
 ````
 
+Solution for 
+````
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkviupnp.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkviupnp.so" to ""
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkviurl.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkviurl.so" to ""
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkviuserlist.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkviuserlist.so" to ""
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkviwindow.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkviwindow.so" to ""
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkviperl.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkviperl.so" to ""
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkvipython.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkvipython.so" to ""
+-- Installing: /usr/local/lib/kvirc/5.0/modules/libkvispellchecker.so
+-- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkvispellchecker.so" to ""
+````
+solution 
+````
+sudo ldconfig
+````
+
 ## Compile Your Own
 
 If you want to compile KVIrc on your chosen platform, we have guides on how to do that for a few popular ones:
