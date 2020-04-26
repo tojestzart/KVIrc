@@ -18,6 +18,9 @@ sudo apt-get install libaudiofile-dev graphviz
 Solution for 
 ````
 kvirc: error while loading shared libraries: libkvilib.so.5: cannot open shared object file: No such file or directory
+
+[1]+  Kod wyjścia 127        kvirc
+
 `````
 
 
