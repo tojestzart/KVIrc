@@ -4,7 +4,7 @@ These are dependencies for kubuntu 19.10 or earlier
 ````
 #!/bin/bash
 sudo apt-get install doxygen libenchant-dev qtbase5-dev cmake-curses-gui extra-cmake-modules gettext \
-             qttools5-dev libkf5i18n-dev qtmultimedia5-dev libqt5webkit5-dev libqt5svg5-dev \
+             qttools5-dev libkf5i18n-dev qtmultimedia5-dev libqt5webkit5-dev libqt5svg5-dev git \
              libphonon4qt5-dev libphonon4qt5experimental-dev libkf5xmlgui-dev libkf5notifications-dev \
              libperl-dev libtheora-dev libvorbis-dev libssl-dev python3-dev libqt5x11extras5-dev \
              build-essential
