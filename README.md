@@ -17,6 +17,11 @@ sudo apt-get install libaudiofile-dev graphviz
 
 Solution for 
 ````
+kvirc: error while loading shared libraries: libkvilib.so.5: cannot open shared object file: No such file or directory
+`````
+
+
+````
 -- Installing: /usr/local/lib/kvirc/5.0/modules/libkviupnp.so
 -- Set runtime path of "/usr/local/lib/kvirc/5.0/modules/libkviupnp.so" to ""
 -- Installing: /usr/local/lib/kvirc/5.0/modules/libkviurl.so
