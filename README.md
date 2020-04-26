@@ -45,6 +45,53 @@ solution
 sudo ldconfig
 ````
 
+
+##  Debbuging
+
+Command to properly set KVIrc inside GDB is:
+
+````
+user@computer:~$ gdb kvirc
+````
+then you should see 
+
+````
+GNU gdb (Ubuntu 9.1-0ubuntu1) 9.1
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from kvirc...
+(gdb) 
+````
+last step is to type command :
+````
+(gdb) r
+````
+then you should see :
+
+````
+Starting program: /usr/local/bin/kvirc 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffed27a700 (LWP 3016)]
+[New Thread 0x7fffe7f63700 (LWP 3017)]
+[New Thread 0x7fffe6404700 (LWP 3018)]
+[New Thread 0x7fffe5c03700 (LWP 3019)]
+[New Thread 0x7fffe5402700 (LWP 3020)]
+[New Thread 0x7fffe4c01700 (LWP 3021)]
+````
+
 ## Compile Your Own
 
 If you want to compile KVIrc on your chosen platform, we have guides on how to do that for a few popular ones:
