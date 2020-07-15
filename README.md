@@ -44,8 +44,45 @@ solution
 ````
 sudo ldconfig
 ````
+solution for
+
+````
+[100%] Automatic MOC for target kvispellchecker
+cd /home/lsd/KVIrc/wydane/src/modules/spellchecker && /usr/bin/cmake -E cmake_autogen /home/lsd/KVIrc/wydane/src/modules/spellchecker/CMakeFiles/kvispellchecker_autogen.dir/AutogenInfo.json Debug
+make[2]: Opuszczenie katalogu '/home/lsd/KVIrc/wydane'
+[100%] Built target kvispellchecker_autogen
+make -f src/modules/spellchecker/CMakeFiles/kvispellchecker.dir/build.make src/modules/spellchecker/CMakeFiles/kvispellchecker.dir/depend
+make[2]: Wejście do katalogu '/home/lsd/KVIrc/wydane'
+cd /home/lsd/KVIrc/wydane && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lsd/KVIrc /home/lsd/KVIrc/src/modules/spellchecker /home/lsd/KVIrc/wydane /home/lsd/KVIrc/wydane/src/modules/spellchecker /home/lsd/KVIrc/wydane/src/modules/spellchecker/CMakeFiles/kvispellchecker.dir/DependInfo.cmake --color=
+make[2]: Opuszczenie katalogu '/home/lsd/KVIrc/wydane'
+make -f src/modules/spellchecker/CMakeFiles/kvispellchecker.dir/build.make src/modules/spellchecker/CMakeFiles/kvispellchecker.dir/build
+make[2]: Wejście do katalogu '/home/lsd/KVIrc/wydane'
+make[2]: Nie ma nic do zrobienia w 'src/modules/spellchecker/CMakeFiles/kvispellchecker.dir/build'.
+make[2]: Opuszczenie katalogu '/home/lsd/KVIrc/wydane'
+[100%] Built target kvispellchecker
+make[1]: Opuszczenie katalogu '/home/lsd/KVIrc/wydane'
+/usr/bin/cmake -E cmake_progress_start /home/lsd/KVIrc/wydane/CMakeFiles 0
+make -f CMakeFiles/Makefile2 preinstall
+make[1]: Wejście do katalogu '/home/lsd/KVIrc/wydane'
+make[1]: Nie ma nic do zrobienia w 'preinstall'.
+make[1]: Opuszczenie katalogu '/home/lsd/KVIrc/wydane'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /usr/local/share/applications/kvirc.desktop
+CMake Error at data/applnk/cmake_install.cmake:49 (file):
+  file INSTALL cannot copy file
+  "/home/lsd/KVIrc/wydane/data/applnk/kvirc.desktop" to
+  "/usr/local/share/applications/kvirc.desktop": Permission denied.
+Call Stack (most recent call first):
+  data/cmake_install.cmake:42 (include)
+  cmake_install.cmake:42 (include)
 
 
+make: *** [Makefile:99: install] Błąd 1
+lsd@lsd-Latitude:~/KVIrc/wydane$ 
+````
+sudo make install
 ##  Debugging
 
 Command to properly set KVIrc inside GDB is:
