@@ -82,7 +82,10 @@ Call Stack (most recent call first):
 make: *** [Makefile:99: install] Błąd 1
 lsd@lsd-Latitude:~/KVIrc/wydane$ 
 ````
+````
 sudo make install
+````
+
 ##  Debugging
 
 Command to properly set KVIrc inside GDB is:
